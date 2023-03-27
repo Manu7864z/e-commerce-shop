@@ -1,3 +1,4 @@
+import Navigation from "@/components/navigation";
 import GlobalStyle from "@/styles";
 import Head from "next/head";
 
@@ -8,7 +9,9 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>Capstone Project</title>
       </Head>
-      <Component {...pageProps} />
+      <Navigation>
+        <Component {...pageProps} />
+      </Navigation>
     </>
   );
 }
