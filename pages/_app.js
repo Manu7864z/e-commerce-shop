@@ -7,11 +7,10 @@ export default function App({ Component, pageProps }) {
     <>
       <GlobalStyle />
       <Head>
-        <title>Capstone Project</title>
+        <title>E-Commerce-Shop</title>
       </Head>
-      <Navigation>
-        <Component {...pageProps} />
-      </Navigation>
+      <Navigation />
+      <Component {...pageProps} />
     </>
   );
 }

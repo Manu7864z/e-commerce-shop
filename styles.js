@@ -8,6 +8,8 @@ export default createGlobalStyle`
   }
   body {
     margin: 0;
+    background-color: rgb(36, 39, 43)
+    ;
     font-family: system-ui;
   }
 `;
