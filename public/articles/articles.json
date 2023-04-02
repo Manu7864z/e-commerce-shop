@@ -1,0 +1,155 @@
+[
+  {
+    "Men": [
+      {
+        "_id": 0,
+        "name": "Shirt",
+        "price": 50,
+        "available": true,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://images.unsplash.com/photo-1492447166138-50c3889fccb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+      },
+      {
+        "_id": 1,
+        "name": "Sweater",
+        "price": 100,
+        "available": true,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://images.unsplash.com/photo-1505632958218-4f23394784a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+      },
+      {
+        "_id": 2,
+        "name": "Pants",
+        "price": 150,
+        "available": false,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://images.unsplash.com/photo-1584865288642-42078afe6942?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+      },
+      {
+        "_id": 3,
+        "name": "Shoes",
+        "price": 200,
+        "available": true,
+        "sizes": [40, 41, 42, 43, 44, 45],
+        "image": "https://images.unsplash.com/photo-1512675828443-4f454c42253a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+      },
+      {
+        "_id": 4,
+        "name": "Hat",
+        "price": 25,
+        "available": true,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://images.unsplash.com/photo-1520367445093-50dc08a59d9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80"
+      },
+      {
+        "_id": 5,
+        "name": "Socks",
+        "price": 10,
+        "available": true,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://images.unsplash.com/photo-1616531758364-731625b1f273?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+      },
+      {
+        "_id": 6,
+        "name": "Underwear",
+        "price": 5,
+        "available": true,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://images.unsplash.com/photo-1601393710008-984348f7447b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80"
+      }
+    ],
+
+    "Women": [
+      {
+        "_id": 7,
+        "name": "Shirt",
+        "price": 50,
+        "available": true,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://images.unsplash.com/photo-1521577352947-9bb58764b69a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80"
+      },
+      {
+        "_id": 8,
+        "name": "Sweater",
+        "price": 100,
+        "available": true,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://images.unsplash.com/photo-1485230977869-27a4eaf8c0e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+      },
+      {
+        "_id": 9,
+        "name": "Pants",
+        "price": 150,
+        "available": false,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://images.unsplash.com/photo-1591226193879-93d5db2a56ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+      },
+      {
+        "_id": 10,
+        "name": "Shoes",
+        "price": 200,
+        "available": true,
+        "sizes": [37, 38, 39, 40, 41, 42],
+        "image": "https://images.unsplash.com/photo-1621996659490-3275b4d0d951?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80"
+      },
+      {
+        "_id": 11,
+        "name": "Hat",
+        "price": 25,
+        "available": true,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+      },
+      {
+        "_id": 12,
+        "name": "Socks",
+        "price": 10,
+        "available": true,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://images.unsplash.com/photo-1592817902645-9ae780577411?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdvbWFuJTIwc29ja3N8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "_id": 13,
+        "name": "Underwear",
+        "price": 5,
+        "available": true,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://images.unsplash.com/photo-1561375958-669d8413fa06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80"
+      }
+    ],
+    "Kids": [
+      {
+        "_id": 14,
+        "name": "Shirt",
+        "price": 50,
+        "available": true,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://images.unsplash.com/photo-1501395958556-e697216072ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGtpZHMlMjBzaGlydHxlbnwwfDF8MHx8&auto=format&fit=crop&w=900&q=60"
+      },
+      {
+        "_id": 15,
+        "name": "Sweater",
+        "price": 100,
+        "available": true,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://images.unsplash.com/photo-1519225919213-d22b2f9d640d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+      },
+      {
+        "_id": 16,
+        "name": "Pants",
+        "price": 150,
+        "available": false,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://images.unsplash.com/photo-1543854704-2b1b011701e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+      },
+      {
+        "_id": 17,
+        "name": "Shoes",
+        "price": 200,
+        "available": true,
+        "sizes": [37, 38, 39, 40, 41, 42],
+        "image": "https://images.unsplash.com/photo-1526249340127-94135916ed20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGtpZCUyMHNob2VzfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=900&q=60"
+      }
+    ]
+  }
+]
