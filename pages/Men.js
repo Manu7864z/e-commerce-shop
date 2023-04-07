@@ -1,31 +1,28 @@
-import useSWR from "swr";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import styled from "styled-components";
+import { useState } from "react";
 
-export default function Men() {
+export default function Men({ data }) {
   const { push } = useRouter();
-  const { data } = useSWR("/api/articles");
-  const articlesForMen = data[0].Men;
-  console.log(data[0].Men);
+  const [articlesForMen, setArticlesForMen] = useState(data[0].Men);
 
-  if (!data) {
-    return <div>Loading...</div>;
-  }
+  console.log(articlesForMen);
+
   return (
     <StyleMain>
-      <h1>Men</h1>
+      <Styledh1>Men</Styledh1>
       <StyledItemList>
-        {articlesForMen.map((article) => (
+        {articlesForMen?.map((article) => (
           <StyledListItem key={article._id}>
-            <h2>{article.name}</h2>
-            <Image
+            <Styledh2>{article.name}</Styledh2>
+            <StyledImage
               src={article.image}
               alt={article.name}
-              height={600}
-              width={600}
+              height={900}
+              width={900}
             />
-            <p>{article.price}</p>
+            <p>Preis: {article.price}€</p>
             <p>{article.available}</p>
             <p>Sizes:</p>
             <select>
@@ -44,13 +41,20 @@ const StyledItemList = styled.ul`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  flex-wrap: wrap;
   align-items: center;
   list-style: none;
   width: 100%;
   height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 
   @media (max-width: 768px) {
-    display: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
   }
 `;
 
@@ -77,10 +81,38 @@ const StyledListItem = styled.li`
   margin: 10px;
   padding: 10px;
   box-sizing: border-box;
+`;
+const StyledImage = styled(Image)`
+  width: 70%;
+  height: 30%;
+  border-radius: 10px;
   cursor: pointer;
   transition: ease-in-out 0.3s;
 
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.01);
   }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 100%;
+  }
+`;
+
+const Styledh1 = styled.h1`
+  font-size: 2rem;
+  color: white;
+  margin: 1rem 3rem 0 0;
+  padding: 0;
+  align-self: flex-end;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+`;
+
+const Styledh2 = styled.h2`
+  font-size: 1.5rem;
+  color: white;
+  margin: 0;
+  padding: 0;
 `;

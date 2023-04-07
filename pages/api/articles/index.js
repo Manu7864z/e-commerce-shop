@@ -11,6 +11,5 @@ export default async function handler(req, res) {
     } catch (error) {
       res.status(400).json({ success: false });
     }
-    res.status(200).json({ name, price, available, sizes, image });
   }
 }
